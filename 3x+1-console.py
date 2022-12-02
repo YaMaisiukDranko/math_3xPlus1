@@ -1,4 +1,5 @@
-num = 7
+num = 71
+
 
 def main():
     global num
@@ -8,12 +9,9 @@ def main():
             num = num / 2
             print(int(num))
 
-        elif num % 2 != 0 :
+        elif num % 2 != 0:
             num = num * 3 + 1
             print(int(num))
 
+
 main()
-
-
-
-
